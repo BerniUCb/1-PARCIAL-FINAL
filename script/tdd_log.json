@@ -134,9 +134,39 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1ad3e8595dd37b1eb90bc0ce66778165ecb881c",
     "commitName": "feat: calcular impuesto para NV (8%)",
     "commitTimestamp": 1788996538997,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788996553186,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788996560355,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788996567386,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para UT (6.65%)",
+    "commitTimestamp": 1788996575219,
+    "testId": 6
   }
 ]
