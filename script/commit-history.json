@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d2238f0cb5a2c612068efe2349cd8e6f6f96ce9b",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:23:39.000Z",
       "message": "feat: mostrar precio neto (cantidad x precio)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/d2238f0cb5a2c612068efe2349cd8e6f6f96ce9b"
     },
     "stats": {
       "total": 9,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:26:35.000Z",
+      "message": "feat: calcular impuesto para CA (8.25%)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 18,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

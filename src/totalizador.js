@@ -1,4 +1,10 @@
-export function calcular({ cantidad, precio }) {
+const IMPUESTOS = {
+  CA: 0.0825,
+};
+
+export function calcular({ cantidad, precio, estado }) {
   const precioNeto = cantidad * precio;
-  return { cantidad, precio, precioNeto };
+  const tasaImpuesto = IMPUESTOS[estado] || 0;
+  const impuesto = precioNeto * tasaImpuesto;
+  return { cantidad, precio, precioNeto, impuesto, estado };
 }

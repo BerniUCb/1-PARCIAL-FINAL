@@ -60,9 +60,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d2238f0cb5a2c612068efe2349cd8e6f6f96ce9b",
     "commitName": "feat: mostrar precio neto (cantidad x precio)",
     "commitTimestamp": 1788996220237,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788996362601,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788996370627,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para CA (8.25%)",
+    "commitTimestamp": 1788996395757,
+    "testId": 3
   }
 ]

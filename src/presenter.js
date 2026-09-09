@@ -8,11 +8,13 @@ form.addEventListener("submit", (event) => {
 
   const cantidad = Number(document.querySelector("#cantidad").value);
   const precio = Number(document.querySelector("#precio").value);
-  const resultado = calcular({ cantidad, precio });
+  const estado = document.querySelector("#estado").value.toUpperCase();
+  const resultado = calcular({ cantidad, precio, estado });
 
   div.innerHTML = `
     <p>Cantidad de item: ${resultado.cantidad}</p>
     <p>Precio por item: ${resultado.precio}</p>
     <p>Precio neto (${resultado.cantidad}*$${resultado.precio}): $${resultado.precioNeto}</p>
+    <p>Impuesto para ${resultado.estado}: $${resultado.impuesto.toFixed(2)}</p>
   `;
 });
