@@ -40,4 +40,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
     expect(resultado.impuesto).toBeCloseTo(3.75);
   });
+
+  it("deberia aplicar descuento de 3% cuando el precio neto es mayor o igual a 1000", () => {
+    const resultado = calcular({ cantidad: 500, precio: 3, estado: "TX" });
+    expect(resultado.descuento).toBeCloseTo(45);
+  });
 });

@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4be64397c1a8cff88c8cbf76c095f0c23774235e",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:30:22.000Z",
       "message": "feat: calcular impuesto para TX (6.25%)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/4be64397c1a8cff88c8cbf76c095f0c23774235e"
     },
     "stats": {
       "total": 6,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:32:01.000Z",
+      "message": "feat: aplicar descuento 3% para precio neto mayor o igual a 1000",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
