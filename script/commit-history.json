@@ -361,17 +361,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "581b4a0601fdf1eaeaac366394228d2a05242367",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:46:09.000Z",
       "message": "feat: cancelar compra limpia el formulario y resultados",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/581b4a0601fdf1eaeaac366394228d2a05242367"
     },
     "stats": {
       "total": 7,
       "additions": 7,
       "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:48:28.000Z",
+      "message": "feat: corregir orden y etiquetas de UI segun IU-Totalizador",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 2,
+      "deletions": 4,
       "date": "2026-09-09"
     },
     "coverage": 100,

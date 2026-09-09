@@ -482,9 +482,23 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "581b4a0601fdf1eaeaac366394228d2a05242367",
     "commitName": "feat: cancelar compra limpia el formulario y resultados",
     "commitTimestamp": 1788997570173,
     "testId": 19
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788997689953,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: corregir orden y etiquetas de UI segun IU-Totalizador",
+    "commitTimestamp": 1788997708684,
+    "testId": 20
   }
 ]
