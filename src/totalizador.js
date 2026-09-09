@@ -6,6 +6,13 @@ const IMPUESTOS = {
   TX: 0.0625,
 };
 
+const DESCUENTO_ENVIO_CLIENTE = {
+  "Normal":             0,
+  "Recurrente":         0.005,
+  "Antiguo Recurrente": 0.01,
+  "Especial":           0.015,
+};
+
 const CATEGORIAS = {
   "Alimentos":              { impuestoAdicional: 0,    descuentoAdicional: 0.02 },
   "Bebidas alcoholicas":    { impuestoAdicional: 0.07, descuentoAdicional: 0 },
@@ -37,7 +44,7 @@ function calcularDescuento(precioNeto) {
   return { monto: 0, porcentaje: 0 };
 }
 
-export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoVolumetrico = 0 }) {
+export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoVolumetrico = 0, tipoCliente = "Normal" }) {
   if (cantidad <= 0) return { error: "Cantidad invalida" };
   if (precio <= 0) return { error: "Precio invalido" };
   if (estado && !IMPUESTOS[estado]) return { error: "Codigo de estado invalido" };
@@ -49,7 +56,8 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   const { monto: descuentoBase, porcentaje: porcentajeDescuentoBase } = calcularDescuento(precioNeto);
   const descuento = descuentoBase + (precioNeto * descuentoAdicional);
   const porcentajeDescuento = porcentajeDescuentoBase + (descuentoAdicional * 100);
-  const costoEnvio = calcularCostoEnvio(pesoVolumetrico, cantidad);
+  const descuentoEnvio = DESCUENTO_ENVIO_CLIENTE[tipoCliente] || 0;
+  const costoEnvio = calcularCostoEnvio(pesoVolumetrico, cantidad) * (1 - descuentoEnvio);
   const precioTotal = precioNeto + impuesto - descuento;
-  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, costoEnvio, estado, categoria };
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, costoEnvio, estado, categoria, tipoCliente };
 }

@@ -17,7 +17,8 @@ form.addEventListener("submit", (event) => {
   const estado = document.querySelector("#estado").value;
   const categoria = document.querySelector("#categoria").value;
   const pesoVolumetrico = Number(document.querySelector("#pesoVolumetrico").value) || 0;
-  const resultado = calcular({ cantidad, precio, estado, categoria, pesoVolumetrico });
+  const tipoCliente = document.querySelector("#tipoCliente").value;
+  const resultado = calcular({ cantidad, precio, estado, categoria, pesoVolumetrico, tipoCliente });
 
   if (resultado.error) {
     div.innerHTML = `<p style="color:red">Error: ${resultado.error}</p>`;

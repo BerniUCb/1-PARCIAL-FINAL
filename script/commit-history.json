@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bf5c119e26d325b4bef931790c6816165593f61a",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:57:06.000Z",
       "message": "feat: calcular costo de envio por peso volumetrico",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/bf5c119e26d325b4bef931790c6816165593f61a"
     },
     "stats": {
       "total": 58,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:58:16.000Z",
+      "message": "feat: descuento en envio por tipo de cliente",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 40,
+      "deletions": 4,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }

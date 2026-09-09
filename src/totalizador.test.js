@@ -175,4 +175,24 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 2, precio: 3, estado: "TX", pesoVolumetrico: 250 });
     expect(resultado.costoEnvio).toBeCloseTo(18);
   });
+
+  it("deberia no aplicar descuento en envio para tipo Normal (0%)", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: 15, tipoCliente: "Normal" });
+    expect(resultado.costoEnvio).toBeCloseTo(35);
+  });
+
+  it("deberia aplicar descuento de 0.5% en envio para tipo Recurrente", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: 15, tipoCliente: "Recurrente" });
+    expect(resultado.costoEnvio).toBeCloseTo(34.825);
+  });
+
+  it("deberia aplicar descuento de 1% en envio para tipo Antiguo Recurrente", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: 15, tipoCliente: "Antiguo Recurrente" });
+    expect(resultado.costoEnvio).toBeCloseTo(34.65);
+  });
+
+  it("deberia aplicar descuento de 1.5% en envio para tipo Especial", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: 15, tipoCliente: "Especial" });
+    expect(resultado.costoEnvio).toBeCloseTo(34.475);
+  });
 });
