@@ -7,6 +7,7 @@ const IMPUESTOS = {
 };
 
 function calcularDescuento(precioNeto) {
+  if (precioNeto >= 3000) return precioNeto * 0.05;
   if (precioNeto >= 1000) return precioNeto * 0.03;
   return 0;
 }
