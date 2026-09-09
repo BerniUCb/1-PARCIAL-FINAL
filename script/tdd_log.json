@@ -548,9 +548,23 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "60bdfe7ea6c3797c647ad9f087ef8dc16fc01301",
     "commitName": "feat: categoria de producto con impuesto adicional por categoria",
     "commitTimestamp": 1788998006131,
     "testId": 22
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788998023901,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento adicional por categoria (Alimentos 2%, Escritorio 1.5%, Electronicos 1%)",
+    "commitTimestamp": 1788998043557,
+    "testId": 23
   }
 ]

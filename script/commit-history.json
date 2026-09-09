@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "60bdfe7ea6c3797c647ad9f087ef8dc16fc01301",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:53:25.000Z",
       "message": "feat: categoria de producto con impuesto adicional por categoria",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/60bdfe7ea6c3797c647ad9f087ef8dc16fc01301"
     },
     "stats": {
       "total": 51,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:54:03.000Z",
+      "message": "feat: descuento adicional por categoria (Alimentos 2%, Escritorio 1.5%, Electronicos 1%)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

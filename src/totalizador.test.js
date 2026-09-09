@@ -125,4 +125,19 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Varios" });
     expect(resultado.impuesto).toBeCloseTo(3.75);
   });
+
+  it("deberia aplicar descuento adicional 2% para categoria Alimentos", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Alimentos" });
+    expect(resultado.descuento).toBeCloseTo(1.2);
+  });
+
+  it("deberia aplicar descuento adicional 1.5% para categoria Material de escritorio", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Material de escritorio" });
+    expect(resultado.descuento).toBeCloseTo(0.9);
+  });
+
+  it("deberia aplicar descuento adicional 1% para categoria Electronicos", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Electronicos" });
+    expect(resultado.descuento).toBeCloseTo(0.6);
+  });
 });
