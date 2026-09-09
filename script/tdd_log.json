@@ -622,9 +622,39 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0c330c8e55472eef721a2a652e8cc8ea9074b28d",
     "commitName": "feat: descuento en envio por tipo de cliente",
     "commitTimestamp": 1788998297411,
     "testId": 25
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 4,
+    "numTotalTests": 43,
+    "timestamp": 1788998320195,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1788998333069,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1788998340018,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento fijo especial por tipo cliente y categoria",
+    "commitTimestamp": 1788998375379,
+    "testId": 26
   }
 ]

@@ -195,4 +195,24 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: 15, tipoCliente: "Especial" });
     expect(resultado.costoEnvio).toBeCloseTo(34.475);
   });
+
+  it("deberia aplicar descuento fijo $100 para Recurrente + Alimentos + neto > 3000", () => {
+    const resultado = calcular({ cantidad: 100, precio: 50, estado: "TX", categoria: "Alimentos", tipoCliente: "Recurrente" });
+    expect(resultado.descuentoFijo).toBeCloseTo(100);
+  });
+
+  it("deberia no aplicar descuento fijo para Recurrente + Alimentos + neto <= 3000", () => {
+    const resultado = calcular({ cantidad: 10, precio: 50, estado: "TX", categoria: "Alimentos", tipoCliente: "Recurrente" });
+    expect(resultado.descuentoFijo).toBeCloseTo(0);
+  });
+
+  it("deberia aplicar descuento fijo $200 para Especial + Electronicos + neto > 7000", () => {
+    const resultado = calcular({ cantidad: 100, precio: 100, estado: "TX", categoria: "Electronicos", tipoCliente: "Especial" });
+    expect(resultado.descuentoFijo).toBeCloseTo(200);
+  });
+
+  it("deberia no aplicar descuento fijo para Especial + Electronicos + neto <= 7000", () => {
+    const resultado = calcular({ cantidad: 10, precio: 100, estado: "TX", categoria: "Electronicos", tipoCliente: "Especial" });
+    expect(resultado.descuentoFijo).toBeCloseTo(0);
+  });
 });

@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0c330c8e55472eef721a2a652e8cc8ea9074b28d",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:58:16.000Z",
       "message": "feat: descuento en envio por tipo de cliente",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/0c330c8e55472eef721a2a652e8cc8ea9074b28d"
     },
     "stats": {
       "total": 44,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:59:34.000Z",
+      "message": "feat: descuento fijo especial por tipo cliente y categoria",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 24,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }

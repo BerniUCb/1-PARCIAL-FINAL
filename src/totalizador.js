@@ -58,6 +58,9 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   const porcentajeDescuento = porcentajeDescuentoBase + (descuentoAdicional * 100);
   const descuentoEnvio = DESCUENTO_ENVIO_CLIENTE[tipoCliente] || 0;
   const costoEnvio = calcularCostoEnvio(pesoVolumetrico, cantidad) * (1 - descuentoEnvio);
+  let descuentoFijo = 0;
+  if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) descuentoFijo = 100;
+  if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) descuentoFijo = 200;
   const precioTotal = precioNeto + impuesto - descuento;
-  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, costoEnvio, estado, categoria, tipoCliente };
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
 }
