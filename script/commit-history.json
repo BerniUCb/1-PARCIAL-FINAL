@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1012112cb332aab1e4936301f7dd779f50d61f0d",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:33:10.000Z",
       "message": "feat: aplicar descuento 5% para precio neto mayor o igual a 3000",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/1012112cb332aab1e4936301f7dd779f50d61f0d"
     },
     "stats": {
       "total": 6,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:34:04.000Z",
+      "message": "feat: aplicar descuento 7% para precio neto mayor o igual a 7000",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
