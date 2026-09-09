@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:17:46.000Z",
+      "message": "feat: mostrar cantidad de producto",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 22,
+      "deletions": 15,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
