@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d4af728d0bf11236e066110fb375d50a43041938",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:54:03.000Z",
       "message": "feat: descuento adicional por categoria (Alimentos 2%, Escritorio 1.5%, Electronicos 1%)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/d4af728d0bf11236e066110fb375d50a43041938"
     },
     "stats": {
       "total": 15,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:57:06.000Z",
+      "message": "feat: calcular costo de envio por peso volumetrico",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 58,
+      "additions": 55,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

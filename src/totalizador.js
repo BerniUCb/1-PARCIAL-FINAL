@@ -16,6 +16,18 @@ const CATEGORIAS = {
   "Varios":                 { impuestoAdicional: 0,    descuentoAdicional: 0 },
 };
 
+function calcularCostoEnvio(pesoVolumetrico, cantidad) {
+  let costoPorUnidad;
+  if (pesoVolumetrico <= 10) costoPorUnidad = 0;
+  else if (pesoVolumetrico <= 20) costoPorUnidad = 3.5;
+  else if (pesoVolumetrico <= 40) costoPorUnidad = 5;
+  else if (pesoVolumetrico <= 80) costoPorUnidad = 6;
+  else if (pesoVolumetrico <= 100) costoPorUnidad = 6.5;
+  else if (pesoVolumetrico <= 200) costoPorUnidad = 8;
+  else costoPorUnidad = 9;
+  return costoPorUnidad * cantidad;
+}
+
 function calcularDescuento(precioNeto) {
   if (precioNeto >= 30000) return { monto: precioNeto * 0.15, porcentaje: 15 };
   if (precioNeto >= 10000) return { monto: precioNeto * 0.10, porcentaje: 10 };
@@ -25,7 +37,7 @@ function calcularDescuento(precioNeto) {
   return { monto: 0, porcentaje: 0 };
 }
 
-export function calcular({ cantidad, precio, estado, categoria = "Varios" }) {
+export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoVolumetrico = 0 }) {
   if (cantidad <= 0) return { error: "Cantidad invalida" };
   if (precio <= 0) return { error: "Precio invalido" };
   if (estado && !IMPUESTOS[estado]) return { error: "Codigo de estado invalido" };
@@ -37,6 +49,7 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios" }) {
   const { monto: descuentoBase, porcentaje: porcentajeDescuentoBase } = calcularDescuento(precioNeto);
   const descuento = descuentoBase + (precioNeto * descuentoAdicional);
   const porcentajeDescuento = porcentajeDescuentoBase + (descuentoAdicional * 100);
+  const costoEnvio = calcularCostoEnvio(pesoVolumetrico, cantidad);
   const precioTotal = precioNeto + impuesto - descuento;
-  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, estado, categoria };
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, costoEnvio, estado, categoria };
 }

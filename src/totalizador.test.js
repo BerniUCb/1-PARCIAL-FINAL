@@ -140,4 +140,39 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Electronicos" });
     expect(resultado.descuento).toBeCloseTo(0.6);
   });
+
+  it("deberia calcular costo de envio 0 para peso volumetrico entre 0 y 10", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", pesoVolumetrico: 5 });
+    expect(resultado.costoEnvio).toBeCloseTo(0);
+  });
+
+  it("deberia calcular costo de envio 3.5 por unidad para peso entre 11 y 20", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", pesoVolumetrico: 15 });
+    expect(resultado.costoEnvio).toBeCloseTo(70);
+  });
+
+  it("deberia calcular costo de envio 5 por unidad para peso entre 21 y 40", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: 30 });
+    expect(resultado.costoEnvio).toBeCloseTo(50);
+  });
+
+  it("deberia calcular costo de envio 6 por unidad para peso entre 41 y 80", () => {
+    const resultado = calcular({ cantidad: 5, precio: 3, estado: "TX", pesoVolumetrico: 60 });
+    expect(resultado.costoEnvio).toBeCloseTo(30);
+  });
+
+  it("deberia calcular costo de envio 6.5 por unidad para peso entre 81 y 100", () => {
+    const resultado = calcular({ cantidad: 4, precio: 3, estado: "TX", pesoVolumetrico: 90 });
+    expect(resultado.costoEnvio).toBeCloseTo(26);
+  });
+
+  it("deberia calcular costo de envio 8 por unidad para peso entre 101 y 200", () => {
+    const resultado = calcular({ cantidad: 3, precio: 3, estado: "TX", pesoVolumetrico: 150 });
+    expect(resultado.costoEnvio).toBeCloseTo(24);
+  });
+
+  it("deberia calcular costo de envio 9 por unidad para peso mayor a 200", () => {
+    const resultado = calcular({ cantidad: 2, precio: 3, estado: "TX", pesoVolumetrico: 250 });
+    expect(resultado.costoEnvio).toBeCloseTo(18);
+  });
 });

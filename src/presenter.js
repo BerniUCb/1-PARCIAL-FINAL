@@ -16,7 +16,8 @@ form.addEventListener("submit", (event) => {
   const precio = Number(document.querySelector("#precio").value);
   const estado = document.querySelector("#estado").value;
   const categoria = document.querySelector("#categoria").value;
-  const resultado = calcular({ cantidad, precio, estado, categoria });
+  const pesoVolumetrico = Number(document.querySelector("#pesoVolumetrico").value) || 0;
+  const resultado = calcular({ cantidad, precio, estado, categoria, pesoVolumetrico });
 
   if (resultado.error) {
     div.innerHTML = `<p style="color:red">Error: ${resultado.error}</p>`;
@@ -27,6 +28,7 @@ form.addEventListener("submit", (event) => {
     <p>Precio neto (${resultado.cantidad}*$${resultado.precio}): $${resultado.precioNeto}</p>
     <p>Descuento (${resultado.porcentajeDescuento}%): $${resultado.descuento.toFixed(2)}</p>
     <p>Impuesto para ${resultado.estado} (%${resultado.porcentajeImpuesto}): $${resultado.impuesto.toFixed(2)}</p>
+    <p>Costo de envio: $${resultado.costoEnvio.toFixed(2)}</p>
     <p>Precio total (descuento e impuesto): $${resultado.precioTotal.toFixed(2)}</p>
   `;
 });
