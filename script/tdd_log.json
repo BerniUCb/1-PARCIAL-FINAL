@@ -342,9 +342,31 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b1b014e95ba466f26b5bbe9b8f70d817f5a19c99",
     "commitName": "feat: calcular precio total (neto + impuesto - descuento)",
     "commitTimestamp": 1788997206828,
     "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 2,
+    "numTotalTests": 16,
+    "timestamp": 1788997222349,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788997230196,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error cuando cantidad es invalida (negativa o cero)",
+    "commitTimestamp": 1788997242507,
+    "testId": 14
   }
 ]

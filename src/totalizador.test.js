@@ -70,4 +70,14 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
     expect(resultado.precioTotal).toBeCloseTo(63.75);
   });
+
+  it("deberia retornar error cuando la cantidad es negativa", () => {
+    const resultado = calcular({ cantidad: -5, precio: 3, estado: "TX" });
+    expect(resultado.error).toBe("Cantidad invalida");
+  });
+
+  it("deberia retornar error cuando la cantidad es cero", () => {
+    const resultado = calcular({ cantidad: 0, precio: 3, estado: "TX" });
+    expect(resultado.error).toBe("Cantidad invalida");
+  });
 });

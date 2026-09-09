@@ -11,6 +11,11 @@ form.addEventListener("submit", (event) => {
   const estado = document.querySelector("#estado").value.toUpperCase();
   const resultado = calcular({ cantidad, precio, estado });
 
+  if (resultado.error) {
+    div.innerHTML = `<p style="color:red">Error: ${resultado.error}</p>`;
+    return;
+  }
+
   div.innerHTML = `
     <p>Cantidad de item: ${resultado.cantidad}</p>
     <p>Precio por item: ${resultado.precio}</p>

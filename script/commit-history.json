@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b1b014e95ba466f26b5bbe9b8f70d817f5a19c99",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:40:06.000Z",
       "message": "feat: calcular precio total (neto + impuesto - descuento)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/b1b014e95ba466f26b5bbe9b8f70d817f5a19c99"
     },
     "stats": {
       "total": 11,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:40:41.000Z",
+      "message": "feat: mostrar error cuando cantidad es invalida (negativa o cero)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
