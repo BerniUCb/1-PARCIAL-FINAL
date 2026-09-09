@@ -416,9 +416,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bc290448fe4e03392059c24f730a4ca38ffc9b89",
     "commitName": "feat: mostrar error cuando codigo de estado es invalido",
     "commitTimestamp": 1788997321471,
     "testId": 16
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788997422791,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788997432650,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar porcentaje de impuesto del estado en UI",
+    "commitTimestamp": 1788997452346,
+    "testId": 17
   }
 ]

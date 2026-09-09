@@ -20,9 +20,10 @@ export function calcular({ cantidad, precio, estado }) {
   if (precio <= 0) return { error: "Precio invalido" };
   if (estado && !IMPUESTOS[estado]) return { error: "Codigo de estado invalido" };
   const precioNeto = cantidad * precio;
-  const tasaImpuesto = IMPUESTOS[estado];
+  const tasaImpuesto = IMPUESTOS[estado] || 0;
+  const porcentajeImpuesto = tasaImpuesto * 100;
   const impuesto = precioNeto * tasaImpuesto;
   const descuento = calcularDescuento(precioNeto);
   const precioTotal = precioNeto + impuesto - descuento;
-  return { cantidad, precio, precioNeto, impuesto, descuento, precioTotal, estado };
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, precioTotal, estado };
 }

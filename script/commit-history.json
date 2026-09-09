@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bc290448fe4e03392059c24f730a4ca38ffc9b89",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:42:00.000Z",
       "message": "feat: mostrar error cuando codigo de estado es invalido",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/bc290448fe4e03392059c24f730a4ca38ffc9b89"
     },
     "stats": {
       "total": 8,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:44:11.000Z",
+      "message": "feat: mostrar porcentaje de impuesto del estado en UI",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 9,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
