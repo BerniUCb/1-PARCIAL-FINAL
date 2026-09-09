@@ -468,9 +468,23 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "87573769c4aa6edd38735b546026c504d7ca1720",
     "commitName": "feat: mostrar porcentaje de descuento aplicado en UI",
     "commitTimestamp": 1788997546888,
     "testId": 18
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788997564449,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cancelar compra limpia el formulario y resultados",
+    "commitTimestamp": 1788997570173,
+    "testId": 19
   }
 ]

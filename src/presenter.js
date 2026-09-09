@@ -2,6 +2,12 @@ import { calcular } from "./totalizador.js";
 
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
+const cancelarBtn = document.querySelector("#cancelar-button");
+
+cancelarBtn.addEventListener("click", () => {
+  form.reset();
+  div.innerHTML = "";
+});
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();

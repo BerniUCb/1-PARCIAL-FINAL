@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "87573769c4aa6edd38735b546026c504d7ca1720",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:45:46.000Z",
       "message": "feat: mostrar porcentaje de descuento aplicado en UI",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/87573769c4aa6edd38735b546026c504d7ca1720"
     },
     "stats": {
       "total": 28,
       "additions": 19,
       "deletions": 9,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:46:09.000Z",
+      "message": "feat: cancelar compra limpia el formulario y resultados",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
       "date": "2026-09-09"
     },
     "coverage": 100,
