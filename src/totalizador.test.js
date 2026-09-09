@@ -65,4 +65,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 100, precio: 350, estado: "TX" });
     expect(resultado.descuento).toBeCloseTo(5250);
   });
+
+  it("deberia calcular el precio total (neto + impuesto - descuento)", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
+    expect(resultado.precioTotal).toBeCloseTo(63.75);
+  });
 });

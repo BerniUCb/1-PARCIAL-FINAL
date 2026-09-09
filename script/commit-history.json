@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5f3ccbb44955708b732b9ae1ea56e055475dd622",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:35:14.000Z",
       "message": "feat: aplicar descuento 15% para precio neto mayor o igual a 30000",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/5f3ccbb44955708b732b9ae1ea56e055475dd622"
     },
     "stats": {
       "total": 6,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:40:06.000Z",
+      "message": "feat: calcular precio total (neto + impuesto - descuento)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

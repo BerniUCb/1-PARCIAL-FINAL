@@ -20,5 +20,6 @@ export function calcular({ cantidad, precio, estado }) {
   const tasaImpuesto = IMPUESTOS[estado] || 0;
   const impuesto = precioNeto * tasaImpuesto;
   const descuento = calcularDescuento(precioNeto);
-  return { cantidad, precio, precioNeto, impuesto, descuento, estado };
+  const precioTotal = precioNeto + impuesto - descuento;
+  return { cantidad, precio, precioNeto, impuesto, descuento, precioTotal, estado };
 }
