@@ -298,9 +298,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5cdacb6ec494348301564521ea84f5cfc45b1ed",
     "commitName": "feat: aplicar descuento 10% para precio neto mayor o igual a 10000",
     "commitTimestamp": 1788996887138,
     "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788996901772,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788996908961,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento 15% para precio neto mayor o igual a 30000",
+    "commitTimestamp": 1788996914705,
+    "testId": 12
   }
 ]
