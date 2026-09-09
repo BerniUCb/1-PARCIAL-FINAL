@@ -15,7 +15,8 @@ form.addEventListener("submit", (event) => {
   const cantidad = Number(document.querySelector("#cantidad").value);
   const precio = Number(document.querySelector("#precio").value);
   const estado = document.querySelector("#estado").value;
-  const resultado = calcular({ cantidad, precio, estado });
+  const categoria = document.querySelector("#categoria").value;
+  const resultado = calcular({ cantidad, precio, estado, categoria });
 
   if (resultado.error) {
     div.innerHTML = `<p style="color:red">Error: ${resultado.error}</p>`;

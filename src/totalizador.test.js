@@ -110,4 +110,19 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
     expect(resultado.porcentajeDescuento).toBeCloseTo(0);
   });
+
+  it("deberia aplicar impuesto adicional por categoria Bebidas alcoholicas (7%)", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Bebidas alcoholicas" });
+    expect(resultado.impuesto).toBeCloseTo(7.95);
+  });
+
+  it("deberia aplicar impuesto adicional por categoria Muebles (3%)", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Muebles" });
+    expect(resultado.impuesto).toBeCloseTo(5.55);
+  });
+
+  it("deberia no aplicar impuesto adicional en categoria Varios", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX", categoria: "Varios" });
+    expect(resultado.impuesto).toBeCloseTo(3.75);
+  });
 });

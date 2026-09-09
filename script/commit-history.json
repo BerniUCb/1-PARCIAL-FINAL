@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c11786fa048c2aa3ca53b2eadb08c5a13411fc52",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:51:57.000Z",
       "message": "feat: estado como dropdown con default California",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/c11786fa048c2aa3ca53b2eadb08c5a13411fc52"
     },
     "stats": {
       "total": 10,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:53:25.000Z",
+      "message": "feat: categoria de producto con impuesto adicional por categoria",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 45,
+      "deletions": 6,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

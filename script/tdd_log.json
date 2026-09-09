@@ -510,9 +510,47 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c11786fa048c2aa3ca53b2eadb08c5a13411fc52",
     "commitName": "feat: estado como dropdown con default California",
     "commitTimestamp": 1788997918043,
     "testId": 21
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 2,
+    "numTotalTests": 25,
+    "timestamp": 1788997935349,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 2,
+    "numTotalTests": 25,
+    "timestamp": 1788997958844,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1788997968524,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788997988389,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: categoria de producto con impuesto adicional por categoria",
+    "commitTimestamp": 1788998006131,
+    "testId": 22
   }
 ]
