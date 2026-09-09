@@ -82,9 +82,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "131038f1838c399e8fbaf6aafd1e183573737842",
     "commitName": "feat: calcular impuesto para CA (8.25%)",
     "commitTimestamp": 1788996395757,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788996484795,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788996491610,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para AL (4%)",
+    "commitTimestamp": 1788996500980,
+    "testId": 4
   }
 ]

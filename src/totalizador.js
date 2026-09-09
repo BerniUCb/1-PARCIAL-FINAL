@@ -1,5 +1,6 @@
 const IMPUESTOS = {
   CA: 0.0825,
+  AL: 0.04,
 };
 
 export function calcular({ cantidad, precio, estado }) {
