@@ -38,9 +38,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3a00b501282c81cc3ef55b9ae1b9a00e10ef1cbc",
     "commitName": "feat: mostrar precio de producto",
     "commitTimestamp": 1788996077190,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788996198786,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788996205294,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio neto (cantidad x precio)",
+    "commitTimestamp": 1788996220237,
+    "testId": 2
   }
 ]

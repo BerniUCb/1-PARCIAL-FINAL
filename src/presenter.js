@@ -13,5 +13,6 @@ form.addEventListener("submit", (event) => {
   div.innerHTML = `
     <p>Cantidad de item: ${resultado.cantidad}</p>
     <p>Precio por item: ${resultado.precio}</p>
+    <p>Precio neto (${resultado.cantidad}*$${resultado.precio}): $${resultado.precioNeto}</p>
   `;
 });
