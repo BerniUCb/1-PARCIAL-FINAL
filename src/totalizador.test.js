@@ -90,4 +90,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 0, estado: "TX" });
     expect(resultado.error).toBe("Precio invalido");
   });
+
+  it("deberia retornar error cuando el codigo de estado es invalido", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "ZZ" });
+    expect(resultado.error).toBe("Codigo de estado invalido");
+  });
 });

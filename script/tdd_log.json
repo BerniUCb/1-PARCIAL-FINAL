@@ -386,9 +386,39 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5261b5f67f77e3a51fe9ca715c67993a0b006e3",
     "commitName": "feat: mostrar error cuando precio es invalido (negativo o cero)",
     "commitTimestamp": 1788997273343,
     "testId": 15
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788997287634,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 3,
+    "numTotalTests": 19,
+    "timestamp": 1788997297503,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788997311913,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error cuando codigo de estado es invalido",
+    "commitTimestamp": 1788997321471,
+    "testId": 16
   }
 ]
