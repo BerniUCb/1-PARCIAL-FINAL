@@ -5,4 +5,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20 });
     expect(resultado.cantidad).toEqual(20);
   });
+
+  it("deberia mostrar el precio de producto", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3 });
+    expect(resultado.precio).toEqual(3);
+  });
 });

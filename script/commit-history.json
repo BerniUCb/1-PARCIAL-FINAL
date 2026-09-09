@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "149b9541a4952aeab36793548a03d47af5c35b3f",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:17:46.000Z",
       "message": "feat: mostrar cantidad de producto",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/149b9541a4952aeab36793548a03d47af5c35b3f"
     },
     "stats": {
       "total": 37,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:21:16.000Z",
+      "message": "feat: mostrar precio de producto",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 15,
+      "deletions": 4,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

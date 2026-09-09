@@ -1,3 +1,3 @@
-export function calcular({ cantidad }) {
-  return { cantidad };
+export function calcular({ cantidad, precio }) {
+  return { cantidad, precio };
 }
