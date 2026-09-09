@@ -35,4 +35,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "UT" });
     expect(resultado.impuesto).toBeCloseTo(3.99);
   });
+
+  it("deberia calcular el impuesto para TX (6.25%)", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
+    expect(resultado.impuesto).toBeCloseTo(3.75);
+  });
 });

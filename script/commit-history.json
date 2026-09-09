@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a23f3b9c4d7ef061c9a6d6cc4e928f5da4aff31f",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:29:34.000Z",
       "message": "feat: calcular impuesto para UT (6.65%)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/a23f3b9c4d7ef061c9a6d6cc4e928f5da4aff31f"
     },
     "stats": {
       "total": 6,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:30:22.000Z",
+      "message": "feat: calcular impuesto para TX (6.25%)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

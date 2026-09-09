@@ -164,9 +164,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a23f3b9c4d7ef061c9a6d6cc4e928f5da4aff31f",
     "commitName": "feat: calcular impuesto para UT (6.65%)",
     "commitTimestamp": 1788996575219,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788996589163,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788996595996,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788996602527,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para TX (6.25%)",
+    "commitTimestamp": 1788996623533,
+    "testId": 7
   }
 ]
