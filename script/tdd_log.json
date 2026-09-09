@@ -364,9 +364,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "867aa3bf116dd4a2642839d6dcbda767464aa61e",
     "commitName": "feat: mostrar error cuando cantidad es invalida (negativa o cero)",
     "commitTimestamp": 1788997242507,
     "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 2,
+    "numTotalTests": 18,
+    "timestamp": 1788997256039,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788997263806,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error cuando precio es invalido (negativo o cero)",
+    "commitTimestamp": 1788997273343,
+    "testId": 15
   }
 ]

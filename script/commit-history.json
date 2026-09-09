@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "867aa3bf116dd4a2642839d6dcbda767464aa61e",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:40:41.000Z",
       "message": "feat: mostrar error cuando cantidad es invalida (negativa o cero)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/867aa3bf116dd4a2642839d6dcbda767464aa61e"
     },
     "stats": {
       "total": 16,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:41:12.000Z",
+      "message": "feat: mostrar error cuando precio es invalido (negativo o cero)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

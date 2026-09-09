@@ -17,6 +17,7 @@ function calcularDescuento(precioNeto) {
 
 export function calcular({ cantidad, precio, estado }) {
   if (cantidad <= 0) return { error: "Cantidad invalida" };
+  if (precio <= 0) return { error: "Precio invalido" };
   const precioNeto = cantidad * precio;
   const tasaImpuesto = IMPUESTOS[estado] || 0;
   const impuesto = precioNeto * tasaImpuesto;

@@ -80,4 +80,14 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 0, precio: 3, estado: "TX" });
     expect(resultado.error).toBe("Cantidad invalida");
   });
+
+  it("deberia retornar error cuando el precio es negativo", () => {
+    const resultado = calcular({ cantidad: 20, precio: -5, estado: "TX" });
+    expect(resultado.error).toBe("Precio invalido");
+  });
+
+  it("deberia retornar error cuando el precio es cero", () => {
+    const resultado = calcular({ cantidad: 20, precio: 0, estado: "TX" });
+    expect(resultado.error).toBe("Precio invalido");
+  });
 });
