@@ -100,4 +100,14 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
     expect(resultado.porcentajeImpuesto).toBeCloseTo(6.25);
   });
+
+  it("deberia retornar el porcentaje de descuento aplicado", () => {
+    const resultado = calcular({ cantidad: 500, precio: 3, estado: "TX" });
+    expect(resultado.porcentajeDescuento).toBeCloseTo(3);
+  });
+
+  it("deberia retornar porcentaje de descuento 0 cuando el neto es menor a 1000", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "TX" });
+    expect(resultado.porcentajeDescuento).toBeCloseTo(0);
+  });
 });

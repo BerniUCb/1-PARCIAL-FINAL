@@ -438,9 +438,39 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b62d445c4a536742891d8ffa5354728f64221f76",
     "commitName": "feat: mostrar porcentaje de impuesto del estado en UI",
     "commitTimestamp": 1788997452346,
     "testId": 17
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 2,
+    "numTotalTests": 22,
+    "timestamp": 1788997470126,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788997488863,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788997503666,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar porcentaje de descuento aplicado en UI",
+    "commitTimestamp": 1788997546888,
+    "testId": 18
   }
 ]
