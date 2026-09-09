@@ -380,17 +380,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c45170b6c1fa81e4d4393583b90372a601d06850",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:48:28.000Z",
       "message": "feat: corregir orden y etiquetas de UI segun IU-Totalizador",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/c45170b6c1fa81e4d4393583b90372a601d06850"
     },
     "stats": {
       "total": 6,
       "additions": 2,
       "deletions": 4,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:51:57.000Z",
+      "message": "feat: estado como dropdown con default California",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
       "date": "2026-09-09"
     },
     "coverage": 100,

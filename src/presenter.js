@@ -14,7 +14,7 @@ form.addEventListener("submit", (event) => {
 
   const cantidad = Number(document.querySelector("#cantidad").value);
   const precio = Number(document.querySelector("#precio").value);
-  const estado = document.querySelector("#estado").value.toUpperCase();
+  const estado = document.querySelector("#estado").value;
   const resultado = calcular({ cantidad, precio, estado });
 
   if (resultado.error) {

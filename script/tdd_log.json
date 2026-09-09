@@ -496,9 +496,23 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c45170b6c1fa81e4d4393583b90372a601d06850",
     "commitName": "feat: corregir orden y etiquetas de UI segun IU-Totalizador",
     "commitTimestamp": 1788997708684,
     "testId": 20
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788997910873,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: estado como dropdown con default California",
+    "commitTimestamp": 1788997918043,
+    "testId": 21
   }
 ]
