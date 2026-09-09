@@ -104,9 +104,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c6354ac4bdc4dd29f39969cc3b0f038655973d41",
     "commitName": "feat: calcular impuesto para AL (4%)",
     "commitTimestamp": 1788996500980,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788996514645,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788996521769,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788996528391,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto para NV (8%)",
+    "commitTimestamp": 1788996538997,
+    "testId": 5
   }
 ]

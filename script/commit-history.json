@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c6354ac4bdc4dd29f39969cc3b0f038655973d41",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-09T23:28:20.000Z",
       "message": "feat: calcular impuesto para AL (4%)",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/c6354ac4bdc4dd29f39969cc3b0f038655973d41"
     },
     "stats": {
       "total": 6,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-09T23:28:58.000Z",
+      "message": "feat: calcular impuesto para NV (8%)",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -25,4 +25,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 20, precio: 3, estado: "AL" });
     expect(resultado.impuesto).toBeCloseTo(2.4);
   });
+
+  it("deberia calcular el impuesto para NV (8%)", () => {
+    const resultado = calcular({ cantidad: 20, precio: 3, estado: "NV" });
+    expect(resultado.impuesto).toBeCloseTo(4.8);
+  });
 });
