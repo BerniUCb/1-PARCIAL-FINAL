@@ -259,4 +259,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", categoria: "Alimentos" });
     expect(resultado.porcentajeDescuentoCategoria).toBeCloseTo(2);
   });
+
+  it("deberia retornar error cuando la categoria es invalida", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", categoria: "Armas" });
+    expect(resultado.error).toBe("Categoria invalida");
+  });
 });

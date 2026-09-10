@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "259a24c61245bace95d740798ed066e2c9238759",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:09:45.000Z",
       "message": "feat: mostrar detalle completo del calculo en UI",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/259a24c61245bace95d740798ed066e2c9238759"
     },
     "stats": {
       "total": 10,
@@ -642,6 +642,25 @@
     },
     "coverage": 100,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:11:14.000Z",
+      "message": "feat: validar categoria invalida",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }

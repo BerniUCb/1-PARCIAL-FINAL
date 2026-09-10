@@ -48,6 +48,7 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   if (cantidad <= 0) return { error: "Cantidad invalida" };
   if (precio <= 0) return { error: "Precio invalido" };
   if (estado && !IMPUESTOS[estado]) return { error: "Codigo de estado invalido" };
+  if (categoria && !CATEGORIAS[categoria]) return { error: "Categoria invalida" };
   if (pesoVolumetrico < 0) return { error: "Peso volumetrico invalido" };
   if (tipoCliente && !DESCUENTO_ENVIO_CLIENTE.hasOwnProperty(tipoCliente)) return { error: "Tipo de cliente invalido" };
   const precioNeto = cantidad * precio;
