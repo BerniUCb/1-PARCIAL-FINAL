@@ -66,5 +66,6 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   const precioTotal = precioNeto + impuesto - descuento - descuentoFijo + costoEnvio;
   const porcentajeImpuestoEstado = tasaImpuesto * 100;
   const porcentajeImpuestoCategoria = impuestoAdicional * 100;
-  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, porcentajeImpuestoEstado, porcentajeImpuestoCategoria, descuento, porcentajeDescuento, porcentajeDescuentoNeto, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
+  const porcentajeDescuentoCategoria = descuentoAdicional * 100;
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, porcentajeImpuestoEstado, porcentajeImpuestoCategoria, descuento, porcentajeDescuento, porcentajeDescuentoNeto, porcentajeDescuentoCategoria, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
 }

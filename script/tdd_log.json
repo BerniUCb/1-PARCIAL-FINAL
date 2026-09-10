@@ -778,9 +778,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e418b747035aabf787ea2a8a5bc5cf43fc5fd0f1",
     "commitName": "feat: retornar porcentaje de descuento por neto separado",
     "commitTimestamp": 1788998894629,
     "testId": 31
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1788998908300,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1788998917627,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: retornar porcentaje de descuento de categoria separado",
+    "commitTimestamp": 1788998922846,
+    "testId": 32
   }
 ]

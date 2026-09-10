@@ -254,4 +254,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 100, precio: 50, estado: "TX" });
     expect(resultado.porcentajeDescuentoNeto).toBeCloseTo(5);
   });
+
+  it("deberia retornar porcentajeDescuentoCategoria separado (Alimentos = 2)", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", categoria: "Alimentos" });
+    expect(resultado.porcentajeDescuentoCategoria).toBeCloseTo(2);
+  });
 });
