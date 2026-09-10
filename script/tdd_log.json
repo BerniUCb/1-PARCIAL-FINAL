@@ -712,9 +712,31 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d568834705eb3cbee1efd05f665d80d75e44c2a0",
     "commitName": "feat: validacion de peso volumetrico y tipo de cliente invalido",
     "commitTimestamp": 1788998482990,
     "testId": 28
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1788998779965,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1788998787556,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: retornar porcentaje de impuesto del estado separado",
+    "commitTimestamp": 1788998812910,
+    "testId": 29
   }
 ]

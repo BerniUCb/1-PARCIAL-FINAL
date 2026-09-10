@@ -239,4 +239,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", tipoCliente: "VIP" });
     expect(resultado.error).toBe("Tipo de cliente invalido");
   });
+
+  it("deberia retornar porcentajeImpuestoEstado separado (TX = 6.25)", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX" });
+    expect(resultado.porcentajeImpuestoEstado).toBeCloseTo(6.25);
+  });
 });

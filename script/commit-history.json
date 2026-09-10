@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d568834705eb3cbee1efd05f665d80d75e44c2a0",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:01:22.000Z",
       "message": "feat: validacion de peso volumetrico y tipo de cliente invalido",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/d568834705eb3cbee1efd05f665d80d75e44c2a0"
     },
     "stats": {
       "total": 12,
@@ -547,6 +547,25 @@
     },
     "coverage": 100,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:06:52.000Z",
+      "message": "feat: retornar porcentaje de impuesto del estado separado",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }

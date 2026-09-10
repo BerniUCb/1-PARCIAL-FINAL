@@ -64,5 +64,6 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) descuentoFijo = 100;
   if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) descuentoFijo = 200;
   const precioTotal = precioNeto + impuesto - descuento - descuentoFijo + costoEnvio;
-  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, descuento, porcentajeDescuento, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
+  const porcentajeImpuestoEstado = tasaImpuesto * 100;
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, porcentajeImpuestoEstado, descuento, porcentajeDescuento, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
 }
