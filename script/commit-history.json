@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8af505e9a6f397f45838e45afa8984e20ee10df",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:07:38.000Z",
       "message": "feat: retornar porcentaje de impuesto de categoria separado",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/f8af505e9a6f397f45838e45afa8984e20ee10df"
     },
     "stats": {
       "total": 8,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:08:14.000Z",
+      "message": "feat: retornar porcentaje de descuento por neto separado",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 8,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 50,
     "failed_tests": 0,
     "conclusion": "success"
   }

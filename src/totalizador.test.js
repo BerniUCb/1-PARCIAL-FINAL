@@ -249,4 +249,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", categoria: "Bebidas alcoholicas" });
     expect(resultado.porcentajeImpuestoCategoria).toBeCloseTo(7);
   });
+
+  it("deberia retornar porcentajeDescuentoNeto separado (neto 5000 = 5%)", () => {
+    const resultado = calcular({ cantidad: 100, precio: 50, estado: "TX" });
+    expect(resultado.porcentajeDescuentoNeto).toBeCloseTo(5);
+  });
 });

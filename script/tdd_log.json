@@ -756,9 +756,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8af505e9a6f397f45838e45afa8984e20ee10df",
     "commitName": "feat: retornar porcentaje de impuesto de categoria separado",
     "commitTimestamp": 1788998859379,
     "testId": 30
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1788998873602,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1788998888654,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: retornar porcentaje de descuento por neto separado",
+    "commitTimestamp": 1788998894629,
+    "testId": 31
   }
 ]

@@ -55,9 +55,9 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   const { impuestoAdicional, descuentoAdicional } = CATEGORIAS[categoria] || CATEGORIAS["Varios"];
   const porcentajeImpuesto = (tasaImpuesto + impuestoAdicional) * 100;
   const impuesto = precioNeto * (tasaImpuesto + impuestoAdicional);
-  const { monto: descuentoBase, porcentaje: porcentajeDescuentoBase } = calcularDescuento(precioNeto);
+  const { monto: descuentoBase, porcentaje: porcentajeDescuentoNeto } = calcularDescuento(precioNeto);
   const descuento = descuentoBase + (precioNeto * descuentoAdicional);
-  const porcentajeDescuento = porcentajeDescuentoBase + (descuentoAdicional * 100);
+  const porcentajeDescuento = porcentajeDescuentoNeto + (descuentoAdicional * 100);
   const descuentoEnvio = DESCUENTO_ENVIO_CLIENTE[tipoCliente] || 0;
   const costoEnvio = calcularCostoEnvio(pesoVolumetrico, cantidad) * (1 - descuentoEnvio);
   let descuentoFijo = 0;
@@ -66,5 +66,5 @@ export function calcular({ cantidad, precio, estado, categoria = "Varios", pesoV
   const precioTotal = precioNeto + impuesto - descuento - descuentoFijo + costoEnvio;
   const porcentajeImpuestoEstado = tasaImpuesto * 100;
   const porcentajeImpuestoCategoria = impuestoAdicional * 100;
-  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, porcentajeImpuestoEstado, porcentajeImpuestoCategoria, descuento, porcentajeDescuento, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
+  return { cantidad, precio, precioNeto, impuesto, porcentajeImpuesto, porcentajeImpuestoEstado, porcentajeImpuestoCategoria, descuento, porcentajeDescuento, porcentajeDescuentoNeto, precioTotal, costoEnvio, descuentoFijo, estado, categoria, tipoCliente };
 }
