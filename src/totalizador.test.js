@@ -264,4 +264,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", categoria: "Armas" });
     expect(resultado.error).toBe("Categoria invalida");
   });
+
+  it("deberia retornar error cuando el peso volumetrico no es numerico (NaN)", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: NaN });
+    expect(resultado.error).toBe("Peso volumetrico invalido");
+  });
 });

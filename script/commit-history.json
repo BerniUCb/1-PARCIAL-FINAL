@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7ef977a00c43c533f8c5750a905fa601559ca546",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:11:14.000Z",
       "message": "feat: validar categoria invalida",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/7ef977a00c43c533f8c5750a905fa601559ca546"
     },
     "stats": {
       "total": 6,
@@ -661,6 +661,25 @@
     },
     "coverage": 100,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:11:41.000Z",
+      "message": "feat: validar peso volumetrico no numerico",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

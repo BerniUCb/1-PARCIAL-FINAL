@@ -828,9 +828,31 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7ef977a00c43c533f8c5750a905fa601559ca546",
     "commitName": "feat: validar categoria invalida",
     "commitTimestamp": 1788999075510,
     "testId": 34
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1788999089237,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1788999095928,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar peso volumetrico no numerico",
+    "commitTimestamp": 1788999102510,
+    "testId": 35
   }
 ]
