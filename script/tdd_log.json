@@ -682,9 +682,39 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "018a1fded428962d96d3087d5303789f8aea5ac5",
     "commitName": "feat: precio total incluye costo envio y descuento fijo",
     "commitTimestamp": 1788998432149,
     "testId": 27
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 2,
+    "numTotalTests": 47,
+    "timestamp": 1788998451026,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1788998458853,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1788998465931,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validacion de peso volumetrico y tipo de cliente invalido",
+    "commitTimestamp": 1788998482990,
+    "testId": 28
   }
 ]

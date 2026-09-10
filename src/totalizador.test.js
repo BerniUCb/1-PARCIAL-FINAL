@@ -229,4 +229,14 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 100, precio: 50, estado: "TX", categoria: "Alimentos", tipoCliente: "Recurrente" });
     expect(resultado.precioTotal).toBeCloseTo(4862.5);
   });
+
+  it("deberia retornar error cuando el peso volumetrico es negativo", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", pesoVolumetrico: -5 });
+    expect(resultado.error).toBe("Peso volumetrico invalido");
+  });
+
+  it("deberia retornar error cuando el tipo de cliente es invalido", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", tipoCliente: "VIP" });
+    expect(resultado.error).toBe("Tipo de cliente invalido");
+  });
 });

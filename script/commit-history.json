@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "018a1fded428962d96d3087d5303789f8aea5ac5",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:00:31.000Z",
       "message": "feat: precio total incluye costo envio y descuento fijo",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/018a1fded428962d96d3087d5303789f8aea5ac5"
     },
     "stats": {
       "total": 17,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:01:22.000Z",
+      "message": "feat: validacion de peso volumetrico y tipo de cliente invalido",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }
