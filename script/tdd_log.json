@@ -734,9 +734,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "18e5f7452c6b840a055ce2da713021818998a469",
     "commitName": "feat: retornar porcentaje de impuesto del estado separado",
     "commitTimestamp": 1788998812910,
     "testId": 29
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1788998827864,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1788998836730,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: retornar porcentaje de impuesto de categoria separado",
+    "commitTimestamp": 1788998859379,
+    "testId": 30
   }
 ]

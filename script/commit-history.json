@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "18e5f7452c6b840a055ce2da713021818998a469",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:06:52.000Z",
       "message": "feat: retornar porcentaje de impuesto del estado separado",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/18e5f7452c6b840a055ce2da713021818998a469"
     },
     "stats": {
       "total": 8,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:07:38.000Z",
+      "message": "feat: retornar porcentaje de impuesto de categoria separado",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }

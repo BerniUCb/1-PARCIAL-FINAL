@@ -244,4 +244,9 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX" });
     expect(resultado.porcentajeImpuestoEstado).toBeCloseTo(6.25);
   });
+
+  it("deberia retornar porcentajeImpuestoCategoria separado (Bebidas alcoholicas = 7)", () => {
+    const resultado = calcular({ cantidad: 10, precio: 3, estado: "TX", categoria: "Bebidas alcoholicas" });
+    expect(resultado.porcentajeImpuestoCategoria).toBeCloseTo(7);
+  });
 });
