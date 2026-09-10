@@ -30,6 +30,7 @@ form.addEventListener("submit", (event) => {
     <p>Descuento (${resultado.porcentajeDescuento}%): $${resultado.descuento.toFixed(2)}</p>
     <p>Impuesto para ${resultado.estado} (%${resultado.porcentajeImpuesto}): $${resultado.impuesto.toFixed(2)}</p>
     <p>Costo de envio: $${resultado.costoEnvio.toFixed(2)}</p>
+    <p>Descuento fijo: $${resultado.descuentoFijo.toFixed(2)}</p>
     <p>Precio total (descuento e impuesto): $${resultado.precioTotal.toFixed(2)}</p>
   `;
 });

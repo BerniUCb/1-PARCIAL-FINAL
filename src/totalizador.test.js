@@ -215,4 +215,18 @@ describe("Totalizador", () => {
     const resultado = calcular({ cantidad: 10, precio: 100, estado: "TX", categoria: "Electronicos", tipoCliente: "Especial" });
     expect(resultado.descuentoFijo).toBeCloseTo(0);
   });
+
+  it("deberia incluir costoEnvio y descuentoFijo en el precio total", () => {
+    // neto=300, impuesto=TX6.25%=18.75, descuento=0, costoEnvio=peso15*10und*3.5=35, descuentoFijo=0
+    // total = 300 + 18.75 - 0 - 0 + 35 = 353.75
+    const resultado = calcular({ cantidad: 10, precio: 30, estado: "TX", pesoVolumetrico: 15 });
+    expect(resultado.precioTotal).toBeCloseTo(353.75);
+  });
+
+  it("deberia descontar descuentoFijo del precio total", () => {
+    // neto=5000, impuesto=TX6.25%=312.5, descuento=5%+2%Alimentos=350, costoEnvio=0, descuentoFijo=100
+    // total = 5000 + 312.5 - 350 - 100 + 0 = 4862.5
+    const resultado = calcular({ cantidad: 100, precio: 50, estado: "TX", categoria: "Alimentos", tipoCliente: "Recurrente" });
+    expect(resultado.precioTotal).toBeCloseTo(4862.5);
+  });
 });

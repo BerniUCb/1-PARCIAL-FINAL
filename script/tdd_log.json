@@ -652,9 +652,39 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8fe6fd55ad015f568ddeb1c0de40b62aaa255493",
     "commitName": "feat: descuento fijo especial por tipo cliente y categoria",
     "commitTimestamp": 1788998375379,
     "testId": 26
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1788998394176,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1788998400772,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1788998419294,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: precio total incluye costo envio y descuento fijo",
+    "commitTimestamp": 1788998432149,
+    "testId": 27
   }
 ]
