@@ -608,17 +608,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2b218da6d0c1faa5ea081d7fc39f58826e6520df",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-09-10T00:08:42.000Z",
       "message": "feat: retornar porcentaje de descuento de categoria separado",
-      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/2b218da6d0c1faa5ea081d7fc39f58826e6520df"
     },
     "stats": {
       "total": 8,
       "additions": 7,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-09-10T00:09:45.000Z",
+      "message": "feat: mostrar detalle completo del calculo en UI",
+      "url": "https://github.com/BerniUCb/1-PARCIAL-FINAL/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
       "date": "2026-09-10"
     },
     "coverage": 100,
